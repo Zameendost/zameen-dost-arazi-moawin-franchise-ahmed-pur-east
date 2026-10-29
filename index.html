@@ -23,6 +23,49 @@
   object-fit: contain;
   display: block;
 }
+  .hero-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+}
+
+.seal {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 12px;
+  overflow: hidden;
+}
+
+.seal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .seal {
+    width: 145px;
+    height: 145px;
+  }
+}
 </style>
 </head>
 <body>
@@ -31,7 +74,9 @@
   <img src="zameen-dost-logo.png" alt="زمین دوست لوگو">
 </div><div><strong>زمین دوست</strong><small>اراضی معاونین فرنچائز</small></div></a><nav class="navlinks"><a href="#services">ہماری خدمات</a><a href="#overseas">بیرونِ شہر مالکان</a><a href="#contact">رابطہ کریں</a></nav><a class="btn btn-green" href="https://wa.me/923088821000" target="_blank" rel="noopener">WhatsApp رابطہ</a></div></header>
 <main>
-<section class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">ZAMEEN DOST · ARAZI MOAWIN FRANCHISE</div><h1>آپ کی زمین،<br>آپ کا اعتماد</h1><p>فرد، رجسٹری دستاویزات، انتقال اور پرانے ریونیو ریکارڈ سے متعلق رہنمائی — احمدپور شرقیہ اور قریبی مواضعات میں زمین رکھنے والے مقامی، بیرونِ شہر اور بیرونِ ملک مالکان کے لیے۔</p><div class="actions"><a class="btn btn-gold" href="https://wa.me/923088821000?text=Assalam-o-Alaikum%2C%20mujhe%20zameen%20ke%20record%20ke%20bare%20mein%20rehnumai%20chahiye." target="_blank" rel="noopener">✆ WhatsApp پر رابطہ کریں</a><a class="btn" style="border:1px solid #ffffff80;color:#fff" href="#services">سروسز دیکھیں ↓</a></div></div><div class="hero-card"><div class="seal">
+<section class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">ZAMEEN DOST · ARAZI MOAWIN FRANCHISE</div><h1>آپ کی زمین،<br>آپ کا اعتماد</h1><p>فرد، رجسٹری دستاویزات، انتقال اور پرانے ریونیو ریکارڈ سے متعلق رہنمائی — احمدپور شرقیہ اور قریبی مواضعات میں زمین رکھنے والے مقامی، بیرونِ شہر اور بیرونِ ملک مالکان کے لیے۔</p><div class="actions"><a class="btn btn-gold" href="https://wa.me/923088821000?text=Assalam-o-Alaikum%2C%20mujhe%20zameen%20ke%20record%20ke%20bare%20mein%20rehnumai%20chahiye." target="_blank" rel="noopener">✆ WhatsApp پر رابطہ کریں</a><a class="btn" style="border:1px solid #ffffff80;color:#fff" href="#services">سروسز دیکھیں ↓</a></div></div><div class="seal">
+  <img src="zameen-dost-logo.png" alt="زمین دوست لوگو">
+</div>
   <img src="zameen-dost-logo.png" alt="زمین دوست لوگو">
 </div>
   <img src="zameen-dost-logo.png" alt="زمین دوست لوگو">
