@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zameendost.github.io/zameen-dost-arazi-moawin-franchise-land-documentation-services-ahmedpur-east/sitemap.xml
